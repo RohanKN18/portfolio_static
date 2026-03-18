@@ -247,7 +247,7 @@ app.use("/", PublicportfolioRouter);
 
 
 app.get("/", (req,res)=>{
-    res.redirect("/publicportfolio");
+    res.redirect("/home");
 });
 
 app.get("/home",(req,res)=>{
